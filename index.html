@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Food Delivery Service</title>
+
+</head>
+
+<body>
+    <section class="container mx-auto">
+        <!-- nav bar  -->
+        <nav class="flex justify-between items-center py-5 relative">
+
+
+            <div class="flex justify-between items-center gap-16">
+                <img class="w-32" src="./src/img/logo-dark.png" alt="">
+
+                <div class="dropdown">
+                    <ul class="flex justify-evenly gap-14 items-center">
+                        <span class="dropdown-btn"><i class="fa-solid fa-fw fa-location-dot"></i>New York <i
+                                class="fa-solid fa-fw fa-caret- down"></i></span>
+
+                        <li>Cuisine</li>
+                        <li>Reviews</li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <div>
+                <ul class="flex justify-evenly gap-5">
+                    <li class="text-xl "><i class="fa-solid fa-fw fa-magnifying-glass"></i></li>
+                    <li class="text-xl "><i class="fa-solid fa-fw fa-user"></i></li>
+
+                </ul>
+
+            </div>
+            <!-- dropdown content -->
+            <div class=" dropdown-content absolute ">
+                <ul>
+                    <li>Los Angeles </li>
+                    <li>Chicago</li>
+                    <li>Houston</li>
+                    <li>Philadelphia</li>
+                    <li>San Diego</li>
+                    <li>Miami</li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- hero section -->
+
+    <section class="w-full h-screen bg-cover bg-center" style="background-image: url(./src/img/hero-bg.jpg);">
+
+        <div class="flex justify-center items-center h-screen w-[35%] mx-auto text-center ">
+            <div class="">
+                <p class="text-xl text-white/75 mb-3">#1 Food Delivery Service since 2010</p>
+                <h1 class="text-4xl font-roboto text-white font-bold mb-8">We delivery your favorite food fresh & fast
+                    in
+                    <span class="text-5xl text-primary-500">New York</span>
+                </h1>
+                <a class="btn  " href="#">What do you want to eat?</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- menu  -->
+    <section class="container mx-auto my-20">
+
+        <!-- menu heading -->
+        <div class="text-center mb-10 ">
+            <h1 class="text-3xl font-bold font-roboto mb-3">Trending Food In Your City</h1>
+            <p class="text-gray-900">Choose what you want and we delivery it to you</p>
+
+        </div>
+
+        <!-- menu items -->
+
+        <div class="grid grid-cols-3   w-full gap-5 ">
+            <div class="text-center rounded-md  shadow-lg ">
+                <img class="rounded-t-md  bg-center" src="./src/img/01.jpg" alt="">
+                <h1 class="py-5 text-2xl font-agdasima font-bold">Burgers & Fries</h1>
+            </div>
+            <div class="text-center rounded-md  shadow-lg ">
+                <img class="rounded-t-md  bg-center" src="./src/img/02.jpg" alt="">
+                <h1 class="py-5 text-2xl font-agdasima font-bold">Noodles</h1>
+            </div>
+            <div class="text-center rounded-md  shadow-lg ">
+                <img class="rounded-t-md  bg-center" src="./src/img/03.jpg" alt="">
+                <h1 class="py-5 text-2xl font-agdasima font-bold">Sushi & Rolls</h1>
+            </div>
+            <div class="text-center rounded-md  shadow-lg ">
+                <img class="rounded-t-md  bg-center" src="./src/img/04.jpg" alt="">
+                <h1 class="py-5 text-2xl font-agdasima font-bold">Pizza & Pasta</h1>
+            </div>
+            <div class="text-center rounded-md  shadow-lg ">
+                <img class="rounded-t-md  bg-center" src="./src/img/05.jpg" alt="">
+                <h1 class="py-5 text-2xl font-agdasima font-bold">Coffee & Desserts</h1>
+            </div>
+            <div class="text-center rounded-md  shadow-lg ">
+                <img class="rounded-t-md  bg-center" src="./src/img/06.jpg" alt="">
+                <h1 class="py-5 text-2xl font-agdasima font-bold">Healthy & Food</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- software section -->
+
+    <section class="h-screen  ">
+
+        <div class="bg-cover bg-center w-full h-2/3 flex gap-20 justify-center pt-10 items-center  "
+            style="background-image: url(./src/img/mobile-app-bg.jpg);">
+
+            <div class="w-[30%]">
+                <h1 class="text-white text-4xl font-bold font-roboto mb-5">Order food ont the go with Cartzilla App</h1>
+                <p class="text-white/75 mb-8">
+                    Play with in app wallet, collect loyalty points, track your orders in real time and much more.
+                </p>
+
+                <div class="flex gap-5 items-start">
+                    <a class="px-3 py-2  bg-black rounded-md flex items-center gap-2" href="#">
+                        <i class="fa-brands fa-fw fa-apple text-white text-3xl"></i>
+                        <div>
+                            <p class="text-white/75 text-sm">Download on the</p>
+                            <span class="text-white  text-xl">App Store</span>
+                        </div>
+                    </a>
+                    <a class="px-3 py-2  bg-black rounded-md flex items-center gap-2" href="#">
+                        <i class="fa-brands fa-fw fa-google-play text-white text-3xl"></i>
+                        <div>
+                            <p class="text-white/75 text-sm">Download on the</p>
+                            <span class="text-white  text-xl">Play Store</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="h-full bg-bottom w-[30%] relative ">
+
+                <img class="bg-cover  bg-bottom w-[300px] absolute bottom-0  " src="./src/img/phone.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="flex container mx-auto items-center gap-8 w-[70%] mt-20">
+            <div class="flex items-center gap-3 w-full bg-slate-100 px-10 rounded-md ">
+                <div>
+                    <h1>Become a Courier</h1>
+                    <p>Earn competitive salary as delivery courier working flexible schedule</p>
+                    <a href="#" class="btn">Start earning</a>
+                </div>
+                <div>
+                    <img class="bg-cover bg-bottom w-[300px]" src="./src/img/courier.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex items-center gap-3 w-full bg-orange-300/50 px-10 rounded-md">
+                <div>
+                    <h1>Become a Courier</h1>
+                    <p>Earn competitive salary as delivery courier working flexible schedule</p>
+                    <a href="#" class="btn">Start earning</a>
+                </div>
+                <div>
+                    <img class="bg-cover bg-bottom w-[300px]" src="./src/img/courier.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
