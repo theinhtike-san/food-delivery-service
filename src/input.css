@@ -6,7 +6,7 @@
 
 @layer components {
     .btn {
-        @apply px-5 py-3 text-white text-xl bg-primary-400 hover:bg-primary-500 rounded-md
+        @apply px-5 py-3 text-white text-xl bg-primary-400 hover:bg-primary-500 rounded-md mb-10
     }
 
     /* menu items */
